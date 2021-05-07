@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aquamarine;
+  background-image: url("background-img.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: center;
+}
+.navbar-brand {
+  margin: 0px 35px;
+}
+.n-options {
+  margin: 10px;
+}
+
+/* Flexbox CSS */
+.container {
+  margin: 5px 30px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  height: 800px;
+  background-color: #fff;
+}
+.pp {
+  display: flex;
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  background-image: url("pp.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+}
+.title {
+  background-color: black;
+  display: flex;
+  color: rgb(102, 196, 110);
+  justify-content: center;
+  padding-top: 30px;
+  height: 100px;
+}
+.expression {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(164, 231, 216);
+  font-size: 25px;
+  padding: 40px;
+}
+.expression > p {
+  text-align: center;
+  width: 500px;
+}
