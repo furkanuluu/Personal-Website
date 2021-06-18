@@ -2,10 +2,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: aquamarine;
   background-image: url("background-img.jpg");
   background-size: 100%;
-  background-repeat: repeat;
+  background-repeat: repeat ;
   background-position: center;
 }
 .navbar-brand {
@@ -22,34 +21,62 @@ body {
   align-self: center;
   flex-direction: column;
   height: 800px;
-  background-color: #fff;
+  background-color: transparent;
 }
-.pp {
+.container2 {
+  margin: 5px 30px;
   display: flex;
   align-self: center;
-  width: 150px;
-  height: 150px;
+  flex-direction: column;
+  width: 1320px;
+}
+.pp {
+  margin-top: 20px;
+  align-self: center;
+  width: 250px;
+  height: 250px;
   background-image: url("pp.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;
 }
-.title {
-  background-color: black;
-  display: flex;
-  color: rgb(102, 196, 110);
-  justify-content: center;
-  padding-top: 30px;
-  height: 100px;
-}
+
 .expression {
   display: flex;
   justify-content: center;
-  background-color: rgb(164, 231, 216);
+  background-color: transparent;
   font-size: 25px;
   padding: 40px;
 }
+.expression > h2 {
+  color: rgb(0, 0, 0);
+}
 .expression > p {
   text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
   width: 500px;
+}
+.vr {
+  border-left: 1296px solid black;
+  height: 4px;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px rgb(255, 37, 37), 0 0 30px #e60000,
+      0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #acff4d, 0 0 40px #7fff4d,
+      0 0 50px #03ff03, 0 0 60px #5cff4d, 0 0 70px #88ff4d, 0 0 80px #62ff4d;
+  }
 }

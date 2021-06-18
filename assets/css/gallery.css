@@ -1,0 +1,33 @@
+#container3{
+    width:90%;
+    height:650px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+   }
+   #container3>img{
+    width:100%;
+    height:100%;
+    position:absolute;
+   }
+   #container3>.btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 400px;
+    background:black;
+    color: white;
+    font-size: 20px; 
+   }
+   #container3>#btn1:hover{
+    box-shadow: 10px 0px 20px 0px black;
+   }
+   #container3>#btn2:hover{
+    box-shadow: -10px 0px 20px 0px black;
+   }
+   #container3>#btn2{
+    position: relative;
+    float: right;
+   }

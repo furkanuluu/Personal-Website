@@ -1,2 +1,2 @@
 
-    addEventListener("load",document.getElementsByClassName("nav-item").classList.add("n-options"));
+addEventListener("load",document.getElementsByClassName("nav-item").classList.add("n-options"));

@@ -38,7 +38,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="index.html"
@@ -52,13 +52,24 @@
             <a class="nav-link" href="assets/img/cv.png">Özgeçmiş</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="gallery.html">Galeri</a>
-            
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Galeri
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Foto Galeri</a>
+              <a class="dropdown-item" href="#">Video Galeri</a>
+              <a class="dropdown-item" href="#">Link-3.3</a>
+            </div>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="maps.html"
-              >Harita</a
-            >
+            <a class="nav-link" href="index.html">Harita</a>
           </li>
         </ul>
       </div>
@@ -66,64 +77,11 @@
       <button class="btn btn-outline-success" type="submit">Search</button>
     </nav>
     <!-- Navigation Bar End  -->
-    <div class="pp"></div>
-    <div class="container" id="container">
-      <div class="expression glow">
-        <h2>Sitemize Hoşgeldiniz</h2>
-      </div>
-      <div class="vr"></div>
-      <div class="expression">
-        <p>
-          Ben Furkan ULU. Banırma Onyedi Eylül Üniversitesinde Bilgisayar
-          Mühendisliği Bölümü 2. Sınıf Öğrencisiyim. <br /><br />
-          Sitenin Bu Sayfasında Siz Döviz Kurları ve Gündeme Dair Haberlerle
-          İlgili Bilgi Alabileceksiniz.
-        </p>
-      </div>
-      <div class="expression glow">
-        <h2>Döviz Kurları</h2>
-      </div>
-      <div
-        style="
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          text-align: -webkit-center;
-          margin: 20px 0;
-        "
-      >
-        <iframe
-          title="Paratic Piyasalar"
-          sandbox="allow-modals allow-same-origin allow-scripts allow-popups allow-pointer-lock"
-          height="341"
-          id="piyasa_paratic_list_extended"
-          src="https://piyasa.paratic.com/MOBILE/widget/toolapi.php?toolName=listextended&background=mavi&ins=USD/TRL,EUR/TRL,GBP/TRL,SAED,SCAD,SKWD&options=0,5"
-          frameborder="0"
-          style="
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.75);
-            border-radius: 5px;
-            width: 100%;
-            height: 341px;
-          "
-        ></iframe>
-      </div>
+    <div class="expression glow">
+      <h2>Projects</h2>
     </div>
-
-    <div class="container2" style="width: 620px">
-      <div class="expression glow">
-        <h2>Gündeme Dair</h2>
-      </div>
-      <a href="/" target="_blank" title="Habertürk"
-        ><img
-          height="35"
-          src="https://im.haberturk.com/assets/images/desktop/siteneekle/manset.png" /></a
-      ><iframe
-        scrolling="no"
-        frameborder="0"
-        width="620"
-        height="410"
-        src="http://www.haberturk.com/siteneekle/haberManset"
-      ></iframe>
+    <div class="projects">
+        
     </div>
   </body>
 </html>
